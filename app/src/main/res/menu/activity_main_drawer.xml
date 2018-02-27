@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/logarithms"
+            android:title="Logarithms">
+            <menu>
+                <item
+                    android:id="@+id/log10page1"
+                    android:title="Log10 10-54" />
+                <item
+                    android:id="@+id/log10page2"
+                    android:title="Log10 54-99" />
+                <item
+                    android:id="@+id/alogpage1"
+                    android:title="Antilog 0.00-0.49" />
+                <item
+                    android:id="@+id/alogpage2"
+                    android:title="Antilog 0.50-0.99" />
+
+            </menu>
+        </item>
+        <item
+            android:id="@+id/trigonometric"
+            android:title="Trigonometric">
+            <menu>
+                <item
+                    android:id="@+id/sin"
+                    android:title="Sin" />
+                <item
+                    android:id="@+id/cos"
+                    android:title="Cosine" />
+                <item
+                    android:id="@+id/tan"
+                    android:title="Tangent" />
+                <item
+                    android:id="@+id/cosec"
+                    android:title="Cosecant" />
+                <item
+                    android:id="@+id/sec"
+                    android:title="Secant" />
+                <item
+                    android:id="@+id/cot"
+                    android:title="Cotangent" />
+            </menu>
+        </item>
+    </group>
+
+</menu>
