@@ -82,26 +82,61 @@ public class MainActivity extends AppCompatActivity
 
         ImageView img=(ImageView) findViewById(R.id.imageView2);
 
-        if (id == R.id.log10page1) {
-            img.setImageResource(R.drawable.log10page1);
-        } else if (id == R.id.log10page2) {
-            img.setImageResource(R.drawable.log10page2);
-        } else if (id == R.id.alogpage1) {
-            img.setImageResource(R.drawable.alogpage1);
-        } else if (id == R.id.alogpage2) {
-            img.setImageResource(R.drawable.alogpage2);
-        } else if (id == R.id.sin) {
-            img.setImageResource(R.drawable.sin);
-        } else if (id == R.id.cos) {
-            img.setImageResource(R.drawable.cos);
-        } else if (id == R.id.tan) {
-            img.setImageResource(R.drawable.tan);
-        } else if (id == R.id.cosec) {
-            img.setImageResource(R.drawable.cosec);
-        } else if (id == R.id.sec) {
-            img.setImageResource(R.drawable.sec);
-        } else if (id == R.id.cot){
-            img.setImageResource(R.drawable.cot);
+        switch (id) {
+            case R.id.log10page1:
+                img.setImageResource(R.drawable.log10page1);
+                break;
+            case R.id.log10page2:
+                img.setImageResource(R.drawable.log10page2);
+                break;
+            case R.id.alogpage1:
+                img.setImageResource(R.drawable.alogpage1);
+                break;
+            case R.id.alogpage2:
+                img.setImageResource(R.drawable.alogpage2);
+                break;
+            case R.id.logepage1:
+                img.setImageResource(R.drawable.logepage1);
+                break;
+            case R.id.logepage2:
+                img.setImageResource(R.drawable.logepage2);
+                break;
+            case R.id.sin:
+                img.setImageResource(R.drawable.sin);
+                break;
+            case R.id.cos:
+                img.setImageResource(R.drawable.cos);
+                break;
+            case R.id.tan:
+                img.setImageResource(R.drawable.tan);
+                break;
+            case R.id.cosec:
+                img.setImageResource(R.drawable.cosec);
+                break;
+            case R.id.sec:
+                img.setImageResource(R.drawable.sec);
+                break;
+            case R.id.cot:
+                img.setImageResource(R.drawable.cot);
+                break;
+            case R.id.epowx:
+                img.setImageResource(R.drawable.epowx);
+                break;
+            case R.id.epowminusx:
+                img.setImageResource(R.drawable.epowminusx);
+                break;
+            case R.id.binomialpage1:
+                img.setImageResource(R.drawable.binomialcoeffpage1);
+                break;
+            case R.id.binomialpage2:
+                img.setImageResource(R.drawable.binomialcoeffpage2);
+                break;
+            case R.id.scrrpage1:
+                img.setImageResource(R.drawable.scrrpage1);
+                break;
+            case R.id.scrrpage2:
+                img.setImageResource(R.drawable.scrrpage2);
+                break;
         }
 
         prevMenuItem.setChecked(false);

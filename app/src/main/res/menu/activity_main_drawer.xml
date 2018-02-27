@@ -6,14 +6,14 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/logarithms"
-            android:title="Logarithms">
+            android:title="Logarithms (Base 10)">
             <menu>
                 <item
                     android:id="@+id/log10page1"
                     android:title="Log10 10-54" />
                 <item
                     android:id="@+id/log10page2"
-                    android:title="Log10 54-99" />
+                    android:title="Log10 55-99" />
                 <item
                     android:id="@+id/alogpage1"
                     android:title="Antilog 0.00-0.49" />
@@ -21,6 +21,18 @@
                     android:id="@+id/alogpage2"
                     android:title="Antilog 0.50-0.99" />
 
+            </menu>
+        </item>
+        <item
+            android:id="@+id/logarithmse"
+            android:title="Logarithms (Base e)">
+            <menu>
+                <item
+                    android:id="@+id/logepage1"
+                    android:title="Logarithms (Base e) (1.0-4.9)" />
+                <item
+                    android:id="@+id/logepage2"
+                    android:title="Logarithms (Base e) (5.0-9.9)" />
             </menu>
         </item>
         <item
@@ -45,6 +57,42 @@
                 <item
                     android:id="@+id/cot"
                     android:title="Cotangent" />
+            </menu>
+        </item>
+        <item
+            android:id="@+id/exponential"
+            android:title="Exponential">
+            <menu>
+                <item
+                    android:id="@+id/epowx"
+                    android:title="e^x" />
+                <item
+                    android:id="@+id/epowminusx"
+                    android:title="e^(-x)" />
+            </menu>
+        </item>
+        <item
+            android:id="@+id/binomialcoeff"
+            android:title="Binomial Coefficient">
+            <menu>
+                <item
+                    android:id="@+id/binomialpage1"
+                    android:title="Binomial Coefficients (k = 0-9)" />
+                <item
+                    android:id="@+id/binomialpage2"
+                    android:title="Binomial Coefficients (k = 10-15)" />
+            </menu>
+        </item>
+        <item
+            android:id="@+id/powers"
+            android:title="Powers of x">
+            <menu>
+                <item
+                    android:id="@+id/scrrpage1"
+                    android:title="x^n (1-50)" />
+                <item
+                    android:id="@+id/scrrpage2"
+                    android:title="x^n (51-100)" />
             </menu>
         </item>
     </group>
